@@ -1,0 +1,20 @@
+#leaveLink {
+	background:rgb(230,234,238); 
+	margin: 5% 5% 15% 5%;
+	border-radius: 5px;padding:5%;
+	color:black;
+	text-decoration:none;
+	font-weight:700;
+}
+.userClass {
+	background:rgb(230,234,238); 
+	margin: 5% ;
+	border-radius: 5px;
+	padding:5%;
+}
+.roomClass {
+	background:rgb(230,234,238);
+	margin: 5% 5% 10% 5%;
+	border-radius: 5px;
+	padding:5%;
+}

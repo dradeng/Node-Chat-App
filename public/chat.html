@@ -4,15 +4,19 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no"/>
     <link rel="stylesheet" href="css/styles.css"/>
+    <link rel="stylesheet" href="css/sauce.css"/>
     <title>Chat | ChatApp</title>
 </head>
 <body class="chat">
     <div class="chat__sidebar">
         <h3>User</h3>
-        <h4 id="user-name"></h4>
+        <h4 id="user-name" class="userClass"></h4>
+
         <h3>Room</h3>
-        <h4 id="room-name"></h4>
-        <a href="/">leave this room</a>
+        <h4 id="room-name" class="roomClass"></h4>
+
+        <a href="/" id="leaveLink">leave this room</a>
+        <div style="margin: 5%;"></div>
         <h3>People</h3>
         <div id="users"></div>
     </div>
