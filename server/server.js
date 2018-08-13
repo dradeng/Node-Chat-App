@@ -43,7 +43,7 @@ io.on('connection', (socket) => {
         ioSupport.emit('updateRoomList', users.getRoomList());
         io.to(room).emit('updateUserList', users.getUserList(room));
         socket.emit('newMessage', generateMessage('Admin', 'Welcome to the chat!'));
-        socket.broadcast.to(room).emit('newMessage', generateMessage('Admin', `${name} joined to the chat.`));
+        socket.broadcast.to(room).emit('newMessage', generateMessage('Admin', `${name} joined the chat.`));
 
         callback(generateAckOk({name, room}));
     });
